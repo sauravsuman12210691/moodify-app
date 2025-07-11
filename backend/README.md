@@ -34,7 +34,7 @@ Before running the backend, ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/hoangsonww/Moodify-Emotion-Based-Music-App.git
+   git clone https://github.com/sauravsuman12210691/moodify-app.git
    cd Moodify-Emotion-Based-Music-App/backend
    ```
 

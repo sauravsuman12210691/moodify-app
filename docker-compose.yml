@@ -3,7 +3,7 @@ version: '3.8'
 services:
   ai_ml:
     build:
-      context: .  # Set the build context to the root directory
+      context: .  # Set the build context to the root
       dockerfile: ./ai_ml/Dockerfile  # Reference the Dockerfile within ai_ml
     container_name: ai_ml_service
     ports:
@@ -15,7 +15,7 @@ services:
   backend:
     build:
       context: .
-      dockerfile: backend/Dockerfile  # Specify the Dockerfile path relative to the root
+      dockerfile: backend/Dockerfile  # Specify the dockerFile path relative to the root
     container_name: backend_service
     ports:
       - "8000:8000"

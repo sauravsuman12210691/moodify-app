@@ -165,7 +165,7 @@ frontend/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/hoangsonww/Moodify-Emotion-Music-App.git
+   git clone https://github.com/sauravsuman12210691/moodify-app.git
    ```
 
 2. Navigate to the frontend directory:
