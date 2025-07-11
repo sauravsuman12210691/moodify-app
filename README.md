@@ -1,7 +1,7 @@
 # **Moodify - Emotion-Based Music Recommendation App**
 
 With the rise of personalized music streaming services, there is a growing need for systems that can recommend music based on users' emotional states.
-Realizing this need, **Moodify** is being developed by **[Son Nguyen](https://github.com/hoangsonww)** in 2024 to provide personalized music recommendations based on users' detected emotions.
+Realizing this need, **Moodify** is being developed by **[Saurav Suman](https://github.com/sauravsuman12210691)** in 2025 to provide personalized music recommendations based on users' detected emotions.
 
 <p align="center">
   <a href="https://moodify-app.vercel.app/" target="_blank" rel="noopener noreferrer">
