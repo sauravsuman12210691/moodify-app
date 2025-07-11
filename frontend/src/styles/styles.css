@@ -1,0 +1,139 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Light mode styles */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+h2,
+h4,
+h6 {
+  color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode h2,
+body.dark-mode h4,
+body.dark-mode h6 {
+  color: white;
+}
+
+button {
+  background-color: #ff4d4d;
+  color: white;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1a1a;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark mode button style */
+body.dark-mode button {
+  background-color: #222;
+  color: white;
+}
+
+body.dark-mode button:hover {
+  background-color: #ff4d4d;
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode button:active {
+  background-color: #ff6666 !important;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff4d4d;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: #333;
+  color: white;
+  border-color: #666;
+}
+
+body.dark-mode input:focus,
+body.dark-mode textarea:focus {
+  border-color: #ff6666;
+}
+
+/* Hover effects */
+.hero-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 1.5s infinite;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Dark mode link colors */
+body.dark-mode a {
+  color: #ff6666;
+}
+
+body.light-mode a {
+  color: #ff4d4d;
+}
